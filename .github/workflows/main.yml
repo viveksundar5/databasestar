@@ -27,7 +27,7 @@ jobs:
     env:
       DB_DATABASE: mydb
       DB_USER: admin
-      DB_PASSWORD: mypasswordmysql
+      DB_PASSWORD: Svs@9551
     steps:
     - uses: actions/checkout@v3
     - name: Show remote databases
