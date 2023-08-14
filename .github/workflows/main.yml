@@ -2,10 +2,7 @@ name: sql-test
 run-name: ${{ github.actor }} is testing SQL
 on: [push]
 jobs:
-  test-output:
-    runs-on: ubuntu-latest
-    
-  create-db:
+   create-db:
     runs-on: ubuntu-latest
     env:
       DB_DATABASE: test_db
