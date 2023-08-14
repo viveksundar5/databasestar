@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is testing SQL
 on: [push]
 jobs:
    create-db:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     env:
       DB_DATABASE: test_db
       DB_USER: root
